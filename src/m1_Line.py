@@ -341,7 +341,7 @@ class Line(object):
         #        They include the Example in the above doc-string.
         # --------------------------------------------------------------
         self.clone_number = self.clone_number + 1
-        return Line(self.start,self.end)
+        return Line(self.start, self.end)
 
     def reverse(self):
         """
